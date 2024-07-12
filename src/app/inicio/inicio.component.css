@@ -1,0 +1,19 @@
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("/background-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.servicios{
+    width: 100%;
+    margin-top: 600px;
+}
+ .footer {
+    width: 100%;
+    margin-top: 0px;
+}
