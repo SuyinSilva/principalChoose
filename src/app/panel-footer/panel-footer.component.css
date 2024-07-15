@@ -1,14 +1,26 @@
 footer{
-    display: flex;
-    color: white;
     background-color: #141414;
-    justify-content: space-around;
-    padding: 50px;
-    text-align: center;
-}
-.logo{
-    width: 200px;
+    color: white;
+    width: 100%;
+    padding-bottom: 20px;
 }
 .footer-choose{
+    justify-content: space-around;
+    padding-top: 0px;
+    display: flex;
     background-color: black;
+}
+.logo{
+    width: 250px;
+    padding-top: 20px;
+}
+.redesSoc{
+    width: 40px;
+    height: auto;
+}
+.redessociales{
+    padding: auto;
+}
+.marca{
+    text-align: center;
 }
