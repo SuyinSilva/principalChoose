@@ -30,3 +30,29 @@ a{
     font-size: 18px;
     text-decoration: none;
 }
+@media (max-width: 800px) {
+    nav {
+        flex-direction: column; /* Cambia a disposición vertical */
+        height: auto; /* Altura automática para adaptarse al contenido */
+        align-items: flex-start; /* Alinea el contenido a la izquierda */
+        padding: 10px; /* Espaciado interior */
+    }
+
+    ul {
+        flex-direction: column; /* Cambia a disposición vertical */
+        align-items: center; /* Alinea los elementos al centro */
+        padding: 0;
+        margin-top: 10px; /* Margen superior para separación */
+        border-radius: 10px; /* Redondea las esquinas */
+        background-color: rgba(0, 0, 0, 0.8); /* Fondo con opacidad */
+    }
+
+    li {
+        margin-bottom: 10px; /* Espacio entre elementos de la lista */
+    }
+
+    a {
+        padding: 10px 20px; /* Ajusta el espaciado de los enlaces */
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+    }
+}
